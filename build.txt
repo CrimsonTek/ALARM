@@ -1,0 +1,3 @@
+displayName = A.L.A.R.M.
+author = CrimsonTek
+version = 0.1

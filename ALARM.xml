@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ALARM</name>
+    </assembly>
+    <members>
+        <member name="T:ALARM.Attributes.DisplayNameAttribute">
+            <summary>
+            Hi
+            <example>
+            <code>
+            Test()
+            {
+                Blah();
+            }
+            </code>
+            </example>
+            </summary>
+        </member>
+        <member name="T:ALARM.Machine">
+            <summary>
+            This class acts as the base class for your machines
+            </summary>
+        </member>
+        <member name="T:ALARM.Core.Machines.MachineLoader">
+            <summary>
+            This class loads other mods' machines. This class can also be used to lookup the index of other mods' machines. 
+            If you want to add machines, use MachineLoader.AddMachine().
+            </summary>
+        </member>
+        <member name="F:ALARM.Core.Machines.MachineLoader.nameToEntry">
+            <summary>This takes the mod and the name of a machine and gets the MachineEntry associated with it.</summary>
+        </member>
+        <member name="M:ALARM.Core.Machines.MachineLoader.Clear">
+            <summary>This clears all the dictionaries.</summary>
+        </member>
+        <member name="M:ALARM.Core.Machines.MachineLoader.Initialize">
+            <summary>This function initializes and registers other mods' machines.</summary>
+        </member>
+        <member name="M:ALARM.Core.Machines.MachineLoader.AddMachine``1(Terraria.ModLoader.Mod,System.String)">
+            <summary>This can be used to add multiple machines of the same class.</summary>
+        </member>
+        <member name="M:ALARM.Core.Machines.MachineLoader.AddMachine(Terraria.ModLoader.Mod,System.String,System.Type)">
+            <summary>This can be used to add multiple machines of the same class.</summary>
+        </member>
+    </members>
+</doc>
